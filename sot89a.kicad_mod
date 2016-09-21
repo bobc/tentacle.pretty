@@ -1,0 +1,19 @@
+(module sot89a (layer F.Cu) (tedit 561C694A)
+  (descr SOT89)
+  (attr smd)
+  (fp_text reference REG1 (at 1.6637 -0.7747 90) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.03175)))
+  )
+  (fp_text value LD2981ABU50TR (at -1.7018 -0.8255 90) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.03175)))
+  )
+  (pad 1 smd rect (at -1.50114 1.89992) (size 0.70104 1.6002) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 0 1.651) (size 0.70104 2.10058) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at 1.50114 1.89992) (size 0.70104 1.6002) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 0 -0.7493) (size 1.99898 2.75082) (layers F.Cu F.Paste F.Mask))
+  (model TO_SOT_Packages_SMD.3dshapes/SOT89-3_Housing.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.4 0.4 0.3))
+    (rotate (xyz 0 0 0))
+  )
+)

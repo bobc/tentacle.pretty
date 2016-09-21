@@ -1,0 +1,18 @@
+(module Atlas_Stamp_14x21 (layer F.Cu) (tedit 561DACC4)
+  (fp_text reference STP1 (at 6 10) (layer F.SilkS) hide
+    (effects (font (size 0.3 0.3) (thickness 0.075)))
+  )
+  (fp_text value ATLAS_STAMP (at 5.5 9.5) (layer F.SilkS) hide
+    (effects (font (size 0.3 0.3) (thickness 0.075)))
+  )
+  (fp_line (start 7 -10.5) (end -7 -10.5) (layer F.SilkS) (width 0.15))
+  (fp_line (start -7 -10.5) (end -7 10.5) (layer F.SilkS) (width 0.15))
+  (fp_line (start -7 10.5) (end 7 10.5) (layer F.SilkS) (width 0.15))
+  (fp_line (start 7 10.5) (end 7 -10.5) (layer F.SilkS) (width 0.15))
+  (pad 1 thru_hole oval (at -2.54 -8.89) (size 1.542 2.54) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole oval (at 0 -8.89) (size 1.524 2.54) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 3 thru_hole oval (at 2.54 -8.89) (size 1.524 2.54) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 4 thru_hole oval (at -2.54 8.89) (size 1.524 2.54) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 5 thru_hole oval (at 0 8.89) (size 1.524 2.54) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 6 thru_hole oval (at 2.54 8.89) (size 1.524 2.54) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+)
